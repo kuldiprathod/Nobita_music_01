@@ -41,13 +41,13 @@ SUPPORT = os.environ["SUPPORT"]
 LIVE_CHATS = []
 
 START_TEXT = """━━━━━━━━━━━━━━━━━━━━━━
-[🖤](https://te.legra.ph/file/743570cee67092f5d03b7.jpg) ʜᴇʏ, <b>{}</b> 
+[🖤](https://te.legra.ph/file/088e7be378ea5a5fc2854.jpg) ʜᴇʏ, <b>{}</b> 
 
 ᴀ ғᴀsᴛ & sᴍᴏᴏᴛʜ ᴠᴄ ᴩʟᴀ
 ᴀ ғᴀsᴛ & sᴍᴏᴏᴛʜ ᴠᴄ ᴩʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩsʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩs.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴍᴀᴅᴇ ʙʏ​ :[ΛႺՕ𝖱Λ♛︎](https://t.me/mr_agora)
+┣★ ᴍᴀᴅᴇ ʙʏ​ :[𝙽𝙾𝙱𝙸𝚃𝙰_𝚇𝙳♛︎](https://t.me/Nobi_xxd)
 ┗━━━━━━━━━━━━━━━━━┛
 
 ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.
@@ -58,14 +58,14 @@ START_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url="https://t.me/agora_robots?startgroup=true")
+                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url="https://t.me/AAPLI_YAARI")
         ],
         [
             InlineKeyboardButton("🧐 ʜᴇʟᴩ 🧐", callback_data="help_cb"),
             InlineKeyboardButton("💔 sᴜᴩᴩᴏʀᴛ​ 💔", url=f"https://t.me/{SUPPORT}")
         ],
         [
-            InlineKeyboardButton("🙄 sᴏᴜʀᴄᴇ 🙄", url="https://t.me/agora_robots")
+            InlineKeyboardButton("🙄 sᴏᴜʀᴄᴇ 🙄", url="https://t.me/AAPLI_YAARI")
         ]
     ]
 )
@@ -250,7 +250,7 @@ async def start_private(_, message):
 async def start_group(_, message):
     await message.delete()
     fuk = "<b>ᴩᴏɴɢ ʙᴀʙʏ !</b>"
-    await message.reply_photo(photo="https://te.legra.ph/file/743570cee67092f5d03b7.jpg", caption=fuk)
+    await message.reply_photo(photo="https://te.legra.ph/file/088e7be378ea5a5fc2854.jpg", caption=fuk)
 
 
 @bot.on_message(filters.command(["join", "userbotjoin", "assistant", "ass"]) & filters.group)
@@ -495,7 +495,7 @@ async def help_cmds(_, query: CallbackQuery):
 » /join or /userbotjoin - ʀᴇǫᴜᴇsᴛs ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
 » /restart - ʀᴇsᴛᴀʀᴛs ᴛʜᴇ ʙᴏᴛ.
 
-🥵 <b><u>ᴍᴀᴅᴇ ʙʏ ΛႺՕ𝖱Λ</u></b> 🥵""")
+🥵 <b><u>ᴍᴀᴅᴇ ʙʏ 𝙽𝙾𝙱𝙸𝚃𝙰_𝚇𝙳</u></b> 🥵""")
 
 
 @bot.on_message(filters.command("restart"))
