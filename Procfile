@@ -1,1 +1,1 @@
-worker: python3 agora.py
+worker: python3 Nobita.py
